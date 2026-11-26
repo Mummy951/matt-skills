@@ -14,11 +14,11 @@
 _Avoid_: Purchase, transaction
 
 **Invoice**:
-A request for payment sent to a customer after delivery.
+A request for payment for an **Order**, sent to its **Customer** after delivery.
 _Avoid_: Bill, payment request
 
 **Customer**:
-A person or organization that places orders.
+A person or organization that places an **Order**.
 _Avoid_: Client, buyer, account
 ```
 
@@ -26,6 +26,7 @@ _Avoid_: Client, buyer, account
 
 - **要有明确主张。** 当同一概念存在多个词时，选出最合适的一个，把其他词列在 `_Avoid_` 之下。
 - **定义保持精炼。** 最多一两句话。定义它是什么，而不是它做什么。
+- **在定义中加粗其他术语。** 当定义提到另一个术语时，把它写成 `**Order**`，并让周围的句子说明两者之间的关系。
 - **只收录本项目上下文中特有的术语。** 通用编程概念（超时、错误类型、工具模式）即使项目大量使用，也不应收录。添加术语前先问：这是本上下文独有的概念，还是通用编程概念？只有前者才属于术语表。
 - **当出现自然的聚类时，将术语分组到小标题之下。** 如果所有术语都属于同一个内聚领域，平铺列表即可。
 
